@@ -1,8 +1,9 @@
 body {
   margin-top: 40px;
   margin: 0;
-  background-image: url('../assets/images/mlp_desktop_background_by_spikesmustache-d596nsx.png');
+  background-image: url('/assets/images/mlp_desktop_background_by_spikesmustache-d596nsx.png');
   background-repeat:no-repeat;
+  background-size: 100% 100%;
   display: compact;
   background-color: #333;
 }

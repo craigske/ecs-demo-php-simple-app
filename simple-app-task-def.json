@@ -1,5 +1,5 @@
 {
-    "family": "console-sample-app",
+    "family": "demo-sample-app",
     "volumes": [
         {
             "name": "my-vol",
@@ -9,8 +9,8 @@
     "containerDefinitions": [
         {
             "environment": [],
-            "name": "simple-app",
-            "image": "amazon/amazon-ecs-sample",
+            "name": "demo-container",
+            "image": "craigske/amazon-ecs-sample",
             "cpu": 10,
             "memory": 500,
             "portMappings": [
@@ -39,7 +39,7 @@
             "memory": 500,
             "volumesFrom": [
             {
-              "sourceContainer": "simple-app"
+              "sourceContainer": "demo-container"
             }
             ],
             "entryPoint": [
